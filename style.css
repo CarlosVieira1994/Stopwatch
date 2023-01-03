@@ -1,0 +1,37 @@
+body {
+    background: black;
+}
+
+.stopwatch {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    height: 3em;
+    color: white;
+    width: 7em;
+    border-radius: 1em;
+}
+button:hover {
+    cursor: pointer;
+}
+.start {
+    background: green;
+}
+.start:hover {
+    background: rgb(1, 199, 1);
+}
+.pause {
+    background: rgb(80, 80, 80);
+}
+.pause:hover {
+    background: rgb(153, 153, 153);
+}
+.stop {
+    background: rgb(158, 0, 0);
+}
+.stop:hover {
+    background: red;
+}
